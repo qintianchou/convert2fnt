@@ -5,17 +5,17 @@
 这一步十分容易,我们约定一个规则,规定图片的命名为`x_y.png`,这样x就是最终`.fnt`和`.png`的名字,而y就是对应字符的ASCII码,这样我的图片最后命名是这个样子的:
 
 ```python
-fighting_header_shuzi_48.png 	#0
-fighting_header_shuzi_49.png 	#1
-fighting_header_shuzi_50.png 	#2
-fighting_header_shuzi_51.png 	#3
-fighting_header_shuzi_52.png 	#4
-fighting_header_shuzi_53.png 	#5
-fighting_header_shuzi_54.png 	#6
-fighting_header_shuzi_55.png 	#7
-fighting_header_shuzi_56.png 	#8
-fighting_header_shuzi_57.png 	#9
-fighting_header_shuzi_109.png 	#m
+fighting_header_shuzi_0.png 	#0
+fighting_header_shuzi_1.png 	#1
+fighting_header_shuzi_2.png 	#2
+fighting_header_shuzi_3.png 	#3
+fighting_header_shuzi_4.png 	#4
+fighting_header_shuzi_5.png 	#5
+fighting_header_shuzi_6.png 	#6
+fighting_header_shuzi_7.png 	#7
+fighting_header_shuzi_8.png 	#8
+fighting_header_shuzi_9.png 	#9
+fighting_header_shuzi_m.png 	#m
 ```
 最后一个m是因为我的图片中包含了一个`m`字样的图片,具体ascii码表可以在[这里][3]查.
 
