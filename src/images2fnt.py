@@ -108,18 +108,18 @@ def main():
 		underline_pos=file_name.rfind('_')
 		if underline_pos == -1:
 			continue
-		ascii_code=file_name[underline_pos+1:file_name.rfind(".")]
+		character = file_name[underline_pos+1:file_name.rfind(".")]
+		if len(character) > 1 :
+			continue
+		ascii_code = ord(character)
 
-		# print(file_name)
 		temp_str_pre=file_name[0:underline_pos]
-		# print(temp_str_pre)
 		if str_pre != "" and str_pre != temp_str_pre:
 			check_and_make(str_pre,convert_list)
 			convert_list=dict()
 
 		str_pre=temp_str_pre
 		convert_list[file_name]=ascii_code
-
 
 	
 	check_and_make(str_pre,convert_list)
